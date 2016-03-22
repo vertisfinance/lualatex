@@ -5,3 +5,9 @@ services:
         hostname: lualatex
         volumes:
             - .:/var/lib/data
+        entrypoint: ["python3", "entry.py"]
+        stop_signal: SIGINT
+        environment:
+            USER_NAME: example-user
+            USER_ID: 1000
+        command: start
