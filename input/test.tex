@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage{geometry}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+
+\geometry{
+    a4paper,
+    left=10mm,
+    right=10mm,
+    top=30mm,
+    headheight=20mm}
+\pagestyle{fancy}
+
+\renewcommand{\headrulewidth}{0pt}
+\setmainfont[
+    Path           = /var/lib/data/fonts/,
+    Extension      = .otf,
+    SlantedFont    = HelveticaNeueLTPro-It
+]{HelveticaNeueLTPro-Roman}
+
+\chead{\includegraphics[height=40pt]{logo}}
+
+\begin{document}
+This is a test.
+Does this use ligatures: fififi?
+And this: árvíztűrő tükörfúrógép.
+Some filler text. Some filler text. Some filler text. Some filler text.
+Some filler text. Some filler text. Some filler text. Some filler text.
+Some filler text. Some filler text. Some filler text. Some filler text.
+Some filler text. Some filler text. Some filler text. Some filler text.
+Some filler text. Some filler text. Some filler text. Some filler text.
+Some filler text. Some filler text. Some filler text. Some filler text.
+Some filler text. Some filler text. Some filler text. Some filler text.
+Some filler text. Some filler text. Some filler text. Some filler text.
+Some filler text. Some filler text. Some filler text. Some filler text.
+Some filler text. Some filler text. Some filler text. Some filler text.
+Some filler text. Some filler text. Some filler text. Some filler text.
+
+\end{document}

@@ -1,0 +1,7 @@
+version: "2"
+services:
+    lualatex:
+        image: vertisfinance/lualatex
+        hostname: lualatex
+        volumes:
+            - .:/var/lib/data
